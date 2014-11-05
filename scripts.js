@@ -1,4 +1,4 @@
-// Menu button element */
+// Menu button element
 var menu = document.getElementById('menu');
 
 // Header element
