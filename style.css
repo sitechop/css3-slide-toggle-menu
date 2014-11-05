@@ -1,0 +1,118 @@
+/* Global Styles*/
+html, body, div,
+h1, h2, h3, h4, h5, h6,
+ul, li, ol, ul, p, img {
+  margin:0;
+  padding:0;
+}
+
+body {
+  line-height: 1;
+  font-size: 100%;
+  font-family: 'Lora', serif;
+  line-height: 1.65;
+}
+
+.widthWrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h2 {
+  line-height: 1.2;
+  font-size: 1.25em;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: #232323;
+  padding-bottom: .65em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p+p {
+  margin-top: 1.5em;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header + Navigation */
+#masterHeader {
+  font-family: 'Roboto', sans-serif;
+  background: #157EBF;
+  overflow: hidden; /* Float Clear */
+  transition: .4s; /* CSS3 Transition */
+  margin-top: -15.875em; /* Height in Chrome */
+}
+
+header a {
+  color: white;
+}
+
+h1 {
+  float: left;
+  font-size: 1.25em;
+  line-height: 3em;
+  margin-left: 5%;
+  text-transform: uppercase;
+}
+
+#menu {
+  float: right;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyNnB4IiBoZWlnaHQ9IjIwcHgiIHZpZXdCb3g9IjAgMCAyNiAyMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMjYgMjAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxyZWN0IGZpbGw9IiNGRkZGRkYiIHdpZHRoPSIyNiIgaGVpZ2h0PSI0Ii8+PHJlY3QgeT0iOCIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjI2IiBoZWlnaHQ9IjQiLz48cmVjdCB5PSIxNiIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjI2IiBoZWlnaHQ9IjQiLz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48L3N2Zz4=);
+  width: 1.625em;
+  height: 1.25em;
+  margin: 1.25em 5% 1.25em 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+nav {
+  text-align: center;
+  background: #1E1E1E;
+}
+
+nav ul li {
+  border-bottom: 1px dashed #333; /* PX for Opera */
+}
+
+nav ul li:last-child {
+  border: none;
+}
+
+nav ul a {
+  display: block;
+  padding: .75em 0;
+  transition: .1s;  /* Hover-off Transition */
+}
+
+nav ul a:hover {
+  background: black;
+  transition: .1s;  /* Hover-on Transition */
+}
+
+section {
+  background: #eee;
+  margin-top: .25em;
+  color: #383838;
+  padding: 2em 0;
+}
+
+section a {
+  color: #157EBF;
+}
+
+section a:hover {
+  color: #333;
+}
+
+/* Class we toggle */
+.show {
+  margin-top: 0!important; /* to overide inline style */
+}

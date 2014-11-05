@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Here is a demonstration for a CSS3 and pure JavaScript slide toggle menu">
+  <meta name="author" content="Robby Klein">
+  <link rel="stylesheet" media="screen,projection,tv" href="style.css">
+  <link href='http://fonts.googleapis.com/css?family=Lora|Roboto:700' rel='stylesheet' type='text/css'>
+  <title>CSS3 + Pure JS Slide Toggle Menu Demo</title>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+
+<header id="masterHeader">
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+    <a id="menu" href="#">Nav</a>
+  </nav>
+  <h1><a href="http://sitechop.com">Sitechop.com</a></h1>
+</header>
+
+<section>
+  <div class="widthWrapper">
+    <article>
+      <h2>Everything Slides On Toggle</h2>
+      <p>CSS3 Transitions are awesome. This runs a lot smoother than a jQuery slideToggle (specifically on mobile), and has no library dependiences. The transition's only work on IE10+, but the toggle functionality will work fine on IE8+.</p>
+      <p>Many browsers render em's slightly different in size. To solve this problem I had to calculate the height of the menu and change margin-top using JavaScript. On the plus side this allows us to add navigation links without having to change any styles. I placed an estimate of margin-top, so browsers that render em's differently than chrome will only see a 2-4px flash of grey.</p>
+      <p><a href="http://sitechop.com/front-end/css3-pure-js-slide-toggle-menu-tutorial">Return to Post</a> | <a href="http://sitechop.com">Return Home</a></p>
+    </article>
+  </div>
+</section>
+
+  <!-- JavaScripts Link -->
+  <script src="scripts.js"></script>
+</body>
+</html>
