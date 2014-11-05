@@ -10,7 +10,7 @@ var nav = document.getElementsByTagName('nav')[0]
 // Calculates nav height, adds - and px
 var height = "-" + nav.clientHeight + "px"
 
-// Add negitive margin of nav's height to header
+// Add negative margin of nav's height to header
 header.style.marginTop = height
 
 // Toggle class function
@@ -29,7 +29,7 @@ function toggleClass(element, className){
     element.className = classString;
 }
 
-// Toggles show class which overides the negitive margin
+// Toggles show class which overides the negative margin
 menu.onclick = function() {
     toggleClass(header, 'show');
 };
